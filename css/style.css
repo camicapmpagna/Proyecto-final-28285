@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFC0D3
+}
+
+.cabecera {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(https://www.estudiahosteleria.com/blog/wp-content/uploads/2019/02/pasteleros.jpg);
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.nav {
+    width: 80vw;
+}
+
+.lista {
+    display: flex;
+    
+}
+
+.lista__item {
+    margin-left: 2.9rem;
+    list-style-type: none;
+    
+
+}
+
+
+.lista__item a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: black;
+    
+}
+
+h1 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.5rem;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    margin: 2.5rem;
+
+}
+
+p {
+    line-height: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+h2 {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.2rem;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 1rem;
+    margin: 2rem;
+
+}
+
+.disenolistas {
+    padding: 1.7rem;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.historia {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 2rem;
+    word-spacing: 0.5rem;
+    line-height: 1.5rem;
+}
+
+.fotos {
+    padding: 1.5rem;
+    border-radius: 3rem;
+}
+
+.formulario {
+    padding: 1rem;
+    margin: 2rem;
+    border: black;
+    background-color: #FF5C8D;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.presentacion {
+    font-weight: bolder;
+    font-size: 1.2rem;
+    color: black;
+    width: 700px;
+    padding: 1.7rem;
+    margin: 2rem;
+}
+
+.fondo {
+    background-color: #FDEFF4;
+}
+
+.deco {
+    display: flex;
+    margin-bottom: 1rem;
+
+}
+
+footer {
+    margin: 2.5rem;
+    font-size: 1rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+#inicio {
+    padding: 1.3rem;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(205px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDEFF4;
+    border-radius: 5px;
+}
+
+.grid-item:hover{
+    fill-opacity: (10);
+    transform: scale(1.04);
+}
